@@ -4,7 +4,7 @@ class ScanSnippets
   end
 
   def to_json
-    markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, autolink: true, tables: true)
+    markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, autolink: true, tables: true, fenced_code_blocks: true)
     Dir.glob("#{@dir}/*.md").map { |f|
       file_name = f.split('/').last
       lang = file_name.split('.')[0]
