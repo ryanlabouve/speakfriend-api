@@ -11,6 +11,8 @@ gem 'rails', '~> 5.0.1'
 gem 'pg'
 gem 'pry'
 gem 'redcarpet'
+gem 'jsonapi-resources'
+gem 'rack-cors', :require => 'rack/cors'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
