@@ -1,6 +1,6 @@
 Run `lein new helloworld`.
 
-On the resulting project, edit `project.clj` and add a `:main`, which will guide lein to our main function.
+Edit `project.clj` and add a `:main`, which will guide lein to our main function.
 
 ```
 (defproject helloworld "0.1.0-SNAPSHOT"
